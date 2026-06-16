@@ -1,0 +1,10 @@
+--Actvity 1
+
+CREATE TABLE salesman 
+(       salesman_id INT, 
+        salesman_name VARCHAR(20), 
+        salesman_city VARCHAR(20), 
+        commission INT
+);
+
+DESCRIBE salesman;

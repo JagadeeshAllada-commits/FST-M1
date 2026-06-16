@@ -1,0 +1,9 @@
+--Activity 5
+
+UPDATE Salesman SET grade = 200 WHERE Salesman_city = 'Rome';
+
+UPDATE salesman SET grade = 300 WHERE salesman_name = 'James Hoog';
+
+UPDATE salesman SET salesman_name = 'Pierre' where salesman_name = 'McLyon';
+
+SELECT * from salesman;
