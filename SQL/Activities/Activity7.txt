@@ -1,0 +1,9 @@
+SELECT SUM(purchase_amount) as TOTAL_PURCHASE_Amount FROM orders;
+
+SELECT AVG(purchase_amount) as Average_Pur_Amount FROM orders;
+
+SELECT MAX(purchase_amount) as Max_pur_Amount FROM orders;
+
+SELECT MIN(purchase_amount) as Min_pur_Amount FROM orders;
+
+SELECT COUNT(DISTINCT Salesman_id) FROM orders;
