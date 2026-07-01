@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="CRM_Project">
+    <test name="testngTest">
+    <parameter name="admin" value="5Nx#I6BK%r3$8vz0ch" />
+        <classes>
+            <class name="crm_project.CRM_Project" />
+            <class name="crm_project.Title_Validation"/>
+            <class name="crm_project.Header_Img_Validation" />
+            <class name="crm_project.Login_Validation" />
+            <class name="crm_project.Copyright_Validation" />
+        </classes>
+    </test>
+</suite>
