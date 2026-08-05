@@ -1,6 +1,6 @@
 package activities;
 
-public class Bicycle implements BicycleParts, BicycleOperations{
+public class Activity7 implements BicycleParts, BicycleOperations{
 
 //	private Object gears;
 //	private Object currentSpeed;
