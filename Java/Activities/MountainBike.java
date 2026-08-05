@@ -1,6 +1,6 @@
 package activities;
 
-public class MountainBike extends Bicycle {
+public class MountainBike extends Activity7 {
 	
 	int seatHeight;
 
